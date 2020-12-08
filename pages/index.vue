@@ -35,8 +35,10 @@
         </div>
         <p class="paragraph pt-24 px-36">
           Hi, I'm Faye. I love coding, writing, and driving. I also ride horses
-          and cook. Before becoming a web developer, I wrote copy for multiple
-          industries, including Education, Finance and Transport.
+          and cook.
+        </p>
+        <p class="paragraph pt-6">I write copy for multiple
+          industries, including Education, Transport and have won award entries in Finance.
         </p>
         <p class="paragraph py-6">
           I design and build beautiful websites using Vue.js, Nuxt.js, and
