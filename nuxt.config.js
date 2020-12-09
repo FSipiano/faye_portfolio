@@ -43,14 +43,7 @@ export default {
   build: {
   },
   router: {
-    extendRoutes(routes, resolve) {
-      routes.push({
-        name: '404',
-        path: '*',
-        component: resolve(__dirname, 'pages/index.vue'),
-      })
-
-      sortRoutes(routes)
+    base: '/'
     }
 }
-}
+
