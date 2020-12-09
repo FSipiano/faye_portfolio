@@ -1,5 +1,5 @@
 <template>
- <div class="relative bg-white">
+ <div class="relative px-6 py-6 bg-white">
   <div class="lg:absolute lg:inset-0">
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
       <img class="h-56 w-full object-cover lg:absolute lg:h-full" src="https://images.unsplash.com/photo-1501556424050-d4816356b73e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" alt="Apple keyboard and a watch on notepad and a white table">
@@ -14,11 +14,10 @@
         <p class="text-lg text-gray-600 sm:mt-3">
           I’d love to hear from you! Send me a message using the form below, or email me at:
         </p>
-        <a class="text-2xl mb-6 text-blue-600 text-decoration: underline sm:mt-3"
+        <a class="text-2xl mb-6 text-indigo-600 text-decoration: underline sm:mt-3"
         href="mailto:fayesipiano@outlook.com">
           fayesipiano@outlook.com
         </a>
-
         <form action="#" method="POST" class="mt-12 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
           <div>
             <label for="first_name" class="block text-sm font-medium text-gray-700">First name</label>
@@ -55,48 +54,13 @@
           </div>
           <div class="sm:col-span-2">
             <div class="flex justify-between">
-              <label for="how_can_we_help" class="block text-sm font-medium text-gray-700">How can we help you?</label>
+              <label for="how_can_we_help" class="block text-sm  pr-6 font-medium text-gray-700">What did you have in mind?
+                I can help you design, develop and build, write, market and strategise
+              </label>
               <span id="how_can_we_help_description" class="text-sm text-gray-500">Max. 500 characters</span>
             </div>
             <div class="mt-1">
               <textarea id="how_can_we_help" name="how_can_we_help" aria-describedby="how_can_we_help_description" rows="4" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"></textarea>
-            </div>
-          </div>
-          <fieldset class="sm:col-span-2">
-            <legend class="block text-sm font-medium text-gray-700">
-              Expected budget
-            </legend>
-            <div class="mt-4 grid grid-cols-1 gap-y-4">
-              <div class="flex items-center">
-                <input id="budget_under_25k" name="budget" value="under_25k" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-                <label for="budget_under_25k" class="ml-3">
-                  <span class="block text-sm text-gray-700">Less than $25K</span>
-                </label>
-              </div>
-              <div class="flex items-center">
-                <input id="budget_25k-50k" name="budget" value="25k-50k" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-                <label for="budget_25k-50k" class="ml-3">
-                  <span class="block text-sm text-gray-700">$25K – $50K</span>
-                </label>
-              </div>
-              <div class="flex items-center">
-                <input id="budget_50k-100k" name="budget" value="50k-100k" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-                <label for="budget_50k-100k" class="ml-3">
-                  <span class="block text-sm text-gray-700">$50K – $100K</span>
-                </label>
-              </div>
-              <div class="flex items-center">
-                <input id="budget_over_100k" name="budget" value="over_100k" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-                <label for="budget_over_100k" class="ml-3">
-                  <span class="block text-sm text-gray-700">$100K+</span>
-                </label>
-              </div>
-            </div>
-          </fieldset>
-          <div class="sm:col-span-2">
-            <label for="how_did_you_hear_about_us" class="block text-sm font-medium text-gray-700">How did you hear about us?</label>
-            <div class="mt-1">
-              <input type="text" name="how_did_you_hear_about_us" id="how_did_you_hear_about_us" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md">
             </div>
           </div>
           <div class="text-right sm:col-span-2">
@@ -116,7 +80,3 @@ export default {
 
 }
 </script>
-
-<style>
-
-</style>
