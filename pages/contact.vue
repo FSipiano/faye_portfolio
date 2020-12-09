@@ -14,12 +14,12 @@
         <p class="text-lg text-gray-600 sm:mt-3">
           I’d love to hear from you! Send me a message using the form below, or email me at:
         </p>
-        <a class="text-2xl mb-6 text-blue-700 text-decoration: underline sm:mt-3"
+        <a class="text-2xl mb-6 text-blue-600 text-decoration: underline sm:mt-3"
         href="mailto:fayesipiano@outlook.com">
           fayesipiano@outlook.com
         </a>
 
-        <form action="#" method="POST" class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+        <form action="#" method="POST" class="mt-12 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
           <div>
             <label for="first_name" class="block text-sm font-medium text-gray-700">First name</label>
             <div class="mt-1">
