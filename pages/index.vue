@@ -3,8 +3,8 @@
     <Navbar class="py-5 px-12"></Navbar>
     <div class="container">
       <div>
-        <h1 class="title">Faye_Sipiano</h1>
-        <h2 class="subtitle">Web developer</h2>
+        <h1 class="title lg:text-3xl">Faye_Sipiano</h1>
+        <h2 class="subtitle">Web Developer</h2>
         <h3 class="subtitle">Copywriter</h3>
         <h4 class="subtitle">UI Designer</h4>
         <div class="links">
@@ -33,7 +33,7 @@
             GitHub
           </a>
         </div>
-        <p class="paragraph pt-24 px-36">
+        <p class="paragraph pt-24 px-36 ">
           Hi, I'm Faye. I love coding, writing, and driving. I also ride horses
           and cook.
         </p>
@@ -62,6 +62,24 @@
 
 <script>
 export default {
+   data() {
+      return {
+        title: 'Faye_Sipiano - Home'
+      }
+    },
+    head() {
+      return {
+        title: this.title,
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'My custom description'
+          }
+        ]
+      }
+    },
+
   components: {
 
   },
@@ -87,7 +105,7 @@ export default {
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 50px;
   color: #35495e;
   letter-spacing: 1px;
 }
