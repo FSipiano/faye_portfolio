@@ -3,7 +3,7 @@
     <Navbar class="py-5 px-12"></Navbar>
     <div class="container">
       <div>
-        <h1 class="title lg:text-4xl">Faye_Sipiano</h1>
+        <h1 class="title lg:text-5xl">Faye_Sipiano</h1>
         <h2 class="subtitle">Web Developer</h2>
         <h3 class="subtitle">Copywriter</h3>
         <h4 class="subtitle">UI Designer</h4>
