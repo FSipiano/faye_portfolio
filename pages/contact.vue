@@ -1,5 +1,6 @@
 <template>
  <div class="relative px-6 py-6 bg-white">
+    <Navbar class="py-5 px-12"></Navbar>
   <div class="lg:absolute lg:inset-0">
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
       <img class="h-56 w-full object-cover lg:absolute lg:h-full" src="https://images.unsplash.com/photo-1501556424050-d4816356b73e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" alt="Apple keyboard and a watch on notepad and a white table">

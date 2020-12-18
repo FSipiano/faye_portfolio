@@ -11,16 +11,7 @@
           Front End Developer | Copywriter | UI Designer
         </p>
       </div>
-      <div class="mt-4 flex-shrink-0 flex md:mt-0 md:ml-4">
-          <nuxt-link to="/contact"
-          type="button"
-              class="ml-3 inline-flex items-center px-12 py-6 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-
-            >
-              Contact
-            </nuxt-link
-        >
-      </div>
+     <ContactButton></ContactButton>
     </div>
   </div>
 </template>
