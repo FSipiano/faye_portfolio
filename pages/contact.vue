@@ -13,13 +13,10 @@
           Let's work together to create your vision
         </h2>
         <p class="text-lg text-gray-600 sm:mt-3">
-          I’d love to hear from you! Send me a message using the form below, or email me at:
+          I’d love to hear from you! Send me a message using the form below, and
+          I'll respond as soon as I can!
         </p>
-        <a class="text-2xl mb-6 text-indigo-600 text-decoration: underline sm:mt-3"
-        href="mailto:fayesipiano@outlook.com">
-          fayesipiano@outlook.com
-        </a>
-        <form enctype=”multipart/form-data” action="https://formsubmit.co/fayesipiano@outlook.com" method="POST" class="mt-12 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+        <form enctype=”multipart/form-data” action="https://formsubmit.co/b322cd07d349fb5f2735756d6fa65c0" method="POST" class="mt-12 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
           <div>
             <label for="first_name" class="block text-sm font-medium text-gray-700">First name</label>
             <div class="mt-1">
