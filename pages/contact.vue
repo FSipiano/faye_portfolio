@@ -13,37 +13,51 @@
           Let's work together to create your vision
         </h2>
         <p class="text-lg text-gray-600 sm:mt-3">
-          I’d love to hear from you! Send me a message using the form below, and
+          I’d love to hear from you! Send me an email,
+
+        <a class="text-lg mb-6 text-indigo-600 text-decoration: underline sm:mt-3"
+           href="https://twitter.com/JavaScriptCoff1">
+          a DM on Twitter
+        </a>
+
+        , or use the form below, and
           I'll respond as soon as I can!
         </p>
-        <form enctype=”multipart/form-data” action="https://formsubmit.co/b322cd07d349fb5f2735756d6fa65c0" method="POST" class="mt-12 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+
+        <p class="text-lg text-gray-600 sm:mt-3">Email to:</p>
+        <a class="text-2xl mb-6 text-indigo-600 text-decoration: underline sm:mt-3"
+        href="mailto:fayesipiano@outlook.com">
+          fayesipiano@outlook.com
+        </a>
+
+        <form enctype=”multipart/form-data” action="https://formsubmit.co/fayesipiano@outlook.com" method="POST" class="mt-12 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
           <div>
-            <label for="first_name" class="block text-sm font-medium text-gray-700">First name</label>
+            <label for="first_name" class="block text-sm font-medium text-gray-600">First name</label>
             <div class="mt-1">
               <input type="text" name="first_name" id="first_name" autocomplete="given-name" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
             </div>
           </div>
           <div>
-            <label for="last_name" class="block text-sm font-medium text-gray-700">Last name</label>
+            <label for="last_name" class="block text-sm font-medium text-gray-600">Last name</label>
             <div class="mt-1">
               <input type="text" name="last_name" id="last_name" autocomplete="family-name" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
             </div>
           </div>
           <div class="sm:col-span-2">
-            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+            <label for="email" class="block text-sm font-medium text-gray-600">Email</label>
             <div class="mt-1">
               <input id="email" name="email" type="email" autocomplete="email" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
             </div>
           </div>
           <div class="sm:col-span-2">
-            <label for="company" class="block text-sm font-medium text-gray-700">Company</label>
+            <label for="company" class="block text-sm font-medium text-gray-600">Company</label>
             <div class="mt-1">
               <input type="text" name="company" id="company" autocomplete="organization" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
             </div>
           </div>
           <div class="sm:col-span-2">
             <div class="flex justify-between">
-              <label for="phone" class="block text-sm font-medium text-gray-700">Phone</label>
+              <label for="phone" class="block text-sm font-medium text-gray-600">Phone</label>
               <span id="phone_description" class="text-sm text-gray-500">Optional</span>
             </div>
             <div class="mt-1">
@@ -52,7 +66,7 @@
           </div>
           <div class="sm:col-span-2">
             <div class="flex justify-between">
-              <label for="how_can_we_help" class="block text-sm  pr-6 font-medium text-gray-700">What did you have in mind?
+              <label for="how_can_we_help" class="block text-sm  pr-6 font-medium text-gray-600">What did you have in mind?
                 I can help you design, develop and build, write, market and strategise
               </label>
               <span id="how_can_we_help_description" class="text-sm text-gray-500">Max. 500 characters</span>
