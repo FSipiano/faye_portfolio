@@ -4,9 +4,9 @@
     <div class="container">
       <div>
         <h1 class="title lg:text-5xl">Faye_Sipiano</h1>
-        <h2 class="subtitle">Web Developer</h2>
-        <h3 class="subtitle">Copywriter</h3>
-        <h4 class="subtitle">UI Designer</h4>
+        <h2 class="subtitle">Developer Advocate</h2>
+        <h3 class="subtitle">Tech writer</h3>
+        <h4 class="subtitle">Front end developer</h4>
         <div class="links">
             <a
             href="https://dev.to/javascriptcoff1"
@@ -42,9 +42,16 @@
           </a>
         </div>
         <p class="paragraph pt-24 px-36 sm: px-6">
-          Hi, I'm Faye. I love coding, writing, and driving. I also ride horses
-          and enjoy cooking.
+          Hi, I'm Faye. I love learning about coding and writing about what I have learned. and driving.
+          I also ride horses, enjoy roadtrips and cooking.
         </p>
+        <p class="paragraph pt-6 sm: px-6">
+        I am looking for my next role as a developer advocate - I have just completed 4 months as a frontend developer and brand advocate within a growing start up.
+        Please fill in a contact form or contact
+        <a
+        class="text-indigo-600 underline"
+         href="https://twitter.com/DanLewistech"> Daniel Lewis</a>
+         (CEO) for a reference! </p>
         <p class="paragraph pt-6 sm: px-6">I have written copy for multiple
           industries, including Education, Transport and have won award entries in Finance.
           I also specialise in explaining difficult technological concepts in an accessible way.
@@ -55,8 +62,9 @@
           Tailwind.
         </p>
         <p class="paragraph pb-4">Let's work together to create your vision.</p>
-        <div class="justify-center mt-4 flex-shrink-0 flex md:mt-0 md:ml-4">
-          <ContactButton></ContactButton>
+        <div class="justify-center mt-4 flex-shrink-0 flex md:mt-0 md:ml-4 mb-10">
+          <ContactButton
+          ></ContactButton>
         </div>
       </div>
     </div>
@@ -112,6 +120,7 @@ export default {
   color: #35495e;
   letter-spacing: 2px;
 }
+
 
 .subtitle {
   font-weight: 300;
