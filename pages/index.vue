@@ -52,6 +52,11 @@
         class="text-indigo-600 underline"
          href="https://twitter.com/DanLewistech"> Daniel Lewis</a>
          (CEO) for a reference! </p>
+         <p class="paragraph pt-6 sm: px-6"> You can also<a
+          class="text-indigo-600 underline"
+          href="https://github.com/FSipiano/faye_portfolio/raw/master/Faye%20Sipiano%20-%20Developer%20Advocate.pdf"> download my CV here
+          </a>
+          </p>
         <p class="paragraph pt-6 sm: px-6">I have written copy for multiple
           industries, including Education, Transport and have won award entries in Finance.
           I also specialise in explaining difficult technological concepts in an accessible way.
