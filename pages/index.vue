@@ -42,7 +42,7 @@
           </a>
         </div>
         <p class="paragraph pt-24 px-36 sm: px-6">
-          Hi, I'm Faye. I love learning about coding and writing about what I have learned. and driving.
+          Hi, I'm Faye. I love learning about coding and writing about what I have learned.
           I also ride horses, enjoy roadtrips and cooking.
         </p>
         <p class="paragraph pt-6 sm: px-6">
