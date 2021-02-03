@@ -19,7 +19,6 @@
            href="https://twitter.com/JavaScriptCoff1">
           a DM on Twitter
         </a>
-
         , or use the form below, and
           I'll respond as soon as I can!
         </p>
@@ -34,49 +33,78 @@
           <div>
             <label for="first_name" class="block text-sm font-medium text-gray-600">First name</label>
             <div class="mt-1">
-              <input type="text" name="first_name" id="first_name" autocomplete="given-name" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+              <input
+              type="text"
+              name="first_name" id="first_name"
+              autocomplete="given-name" required
+              class="input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600 autofocus">
             </div>
           </div>
           <div>
-            <label for="last_name" class="block text-sm font-medium text-gray-600">Last name</label>
+            <label for="last_name" class="block text-sm font-medium text-gray-600 required">Last name</label>
             <div class="mt-1">
-              <input type="text" name="last_name" id="last_name" autocomplete="family-name" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+              <input type="text" name="last_name" id="last_name" autocomplete="family-name" required
+              class="input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600 required">
             </div>
           </div>
           <div class="sm:col-span-2">
             <label for="email" class="block text-sm font-medium text-gray-600">Email</label>
             <div class="mt-1">
-              <input id="email" name="email" type="email" autocomplete="email" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+              <input id="email" name="email" type="email" required
+              autocomplete="email"
+              class="input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600">
             </div>
           </div>
           <div class="sm:col-span-2">
             <label for="company" class="block text-sm font-medium text-gray-600">Company</label>
             <div class="mt-1">
-              <input type="text" name="company" id="company" autocomplete="organization" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+              <input
+              type="text"
+              name="company"
+              id="company"
+              autocomplete="organization" required
+              class="input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600">
             </div>
           </div>
           <div class="sm:col-span-2">
             <div class="flex justify-between">
-              <label for="phone" class="block text-sm font-medium text-gray-600">Phone</label>
-              <span id="phone_description" class="text-sm text-gray-500">Optional</span>
+              <label
+              for="phone"
+              class="block text-sm font-medium text-gray-600">Phone</label>
+              <span id="phone_description"
+              class="text-sm text-gray-500">Optional</span>
             </div>
             <div class="mt-1">
-              <input type="text" name="phone" id="phone" autocomplete="tel" aria-describedby="phone_description" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md">
+              <input
+              type="text"
+              name="phone" id="phone"
+              autocomplete="tel"
+              aria-describedby="phone_description"
+              class="input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600">
             </div>
           </div>
           <div class="sm:col-span-2">
             <div class="flex justify-between">
-              <label for="how_can_we_help" class="block text-sm  pr-6 font-medium text-gray-600">What did you have in mind?
-                I can help you design, develop and build, write, market and strategise
+              <label
+              for="how_can_we_help"
+              required
+              class="block text-sm  pr-6 font-medium text-gray-600">What did you have in mind?
+                I can help you to design, develop and build, write, market and strategise
               </label>
               <span id="how_can_we_help_description" class="text-sm text-gray-500">Max. 500 characters</span>
             </div>
             <div class="mt-1">
-              <textarea id="how_can_we_help" name="how_can_we_help" aria-describedby="how_can_we_help_description" rows="4" class="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"></textarea>
+              <textarea id="how_can_we_help"
+              name="how_can_we_help"
+              aria-describedby="how_can_we_help_description"
+              rows="4"
+              class="input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600"></textarea>
             </div>
           </div>
           <div class="text-right sm:col-span-2">
-            <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            <button
+            type="submit"
+            class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
               Submit
             </button>
           </div>
