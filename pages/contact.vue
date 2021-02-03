@@ -37,14 +37,14 @@
               type="text"
               name="first_name" id="first_name"
               autocomplete="given-name" required
-              class="input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600 autofocus">
+              class="input border border-gray-600 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600 autofocus">
             </div>
           </div>
           <div>
             <label for="last_name" class="block text-sm font-medium text-gray-600 required">Last name</label>
             <div class="mt-1">
               <input type="text" name="last_name" id="last_name" autocomplete="family-name" required
-              class="input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600 required">
+              class="input border border-gray-600 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600 required">
             </div>
           </div>
           <div class="sm:col-span-2">
@@ -52,7 +52,7 @@
             <div class="mt-1">
               <input id="email" name="email" type="email" required
               autocomplete="email"
-              class="input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600">
+              class="input border border-gray-600 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600">
             </div>
           </div>
           <div class="sm:col-span-2">
@@ -63,7 +63,7 @@
               name="company"
               id="company"
               autocomplete="organization" required
-              class="input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600">
+              class="input border border-gray-600 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600">
             </div>
           </div>
           <div class="sm:col-span-2">
@@ -72,7 +72,7 @@
               for="phone"
               class="block text-sm font-medium text-gray-600">Phone</label>
               <span id="phone_description"
-              class="text-sm text-gray-500">Optional</span>
+              class="text-sm text-gray-600">Optional</span>
             </div>
             <div class="mt-1">
               <input
@@ -80,7 +80,7 @@
               name="phone" id="phone"
               autocomplete="tel"
               aria-describedby="phone_description"
-              class="input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600">
+              class="input border border-gray-600 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600">
             </div>
           </div>
           <div class="sm:col-span-2">
@@ -91,14 +91,14 @@
               class="block text-sm  pr-6 font-medium text-gray-600">What did you have in mind?
                 I can help you to design, develop and build, write, market and strategise
               </label>
-              <span id="how_can_we_help_description" class="text-sm text-gray-500">Max. 500 characters</span>
+              <span id="how_can_we_help_description" class="text-sm text-gray-600">Max. 500 characters</span>
             </div>
             <div class="mt-1">
               <textarea id="how_can_we_help"
               name="how_can_we_help"
               aria-describedby="how_can_we_help_description"
               rows="4"
-              class="input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600"></textarea>
+              class="input border border-gray-600 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600"></textarea>
             </div>
           </div>
           <div class="text-right sm:col-span-2">
