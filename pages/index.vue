@@ -1,12 +1,14 @@
 <template>
-  <section>
+  <section class="page">
     <Navbar class="py-5 px-12"></Navbar>
     <div class="container">
       <div>
-        <h1 class="title lg:text-5xl">Faye_Sipiano</h1>
-        <h2 class="subtitle">Developer Advocate</h2>
-        <h3 class="subtitle">Tech writer</h3>
-        <h4 class="subtitle">Front end developer</h4>
+        <h1 class="title lg:text-6xl">Faye_Sipiano</h1>
+
+        <h2 class="subtitle"> Developer Advocate at <a class ="subtitle underline"
+        href="https://raycast.com">Raycast
+        </a></h2>
+
         <div class="links">
             <a
             href="https://dev.to/javascriptcoff1"
@@ -44,19 +46,7 @@
         <p class="paragraph pt-24 px-36 sm: px-6">
           Hi, I'm Faye. I love learning about coding and writing about what I have learned.
           I also ride horses, enjoy roadtrips and cooking.
-        </p>
-        <p class="paragraph pt-6 sm: px-6">
-        I am looking for my next role as a developer advocate - I have just completed 4 months as a frontend developer and brand advocate within a growing start up.
-        Please fill in a contact form or contact
-        <a
-        class="text-indigo-600 underline"
-         href="https://twitter.com/DanLewistech"> Daniel Lewis</a>
-         (CEO) for a reference! </p>
-         <p class="paragraph pt-6 sm: px-6"> You can also<a
-          class="text-indigo-600 underline"
-          href="https://github.com/FSipiano/faye_portfolio/raw/master/Faye%20Sipiano%20-%20Developer%20Advocate.pdf"> download my CV here
-          </a>
-          </p>
+        </p>         
         <p class="paragraph pt-6 sm: px-6">I have written copy for multiple
           industries, including Education, Transport and have won award entries in Finance.
           I also specialise in explaining difficult technological concepts in an accessible way.
@@ -107,6 +97,10 @@ export default {
   @apply min-h-screen flex justify-center items-center text-center mx-auto
 } */
 
+.page {
+  background-color: #fafafac9;
+}
+
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -121,7 +115,7 @@ export default {
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 50px;
+  font-size: 60px;
   color: #35495e;
   letter-spacing: 2px;
 }
@@ -145,7 +139,7 @@ export default {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
-  font-size: 24px;
+  font-size: 28px;
   color: #000000;
 }
 </style>
