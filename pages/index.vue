@@ -93,7 +93,7 @@ export default {
 } */
 
 .page {
-  background-color: #fafafac9;
+  background-color: #e2d8d896;
 }
 
 .container {
