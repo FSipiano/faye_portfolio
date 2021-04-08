@@ -47,16 +47,11 @@
           Hi, I'm Faye. I love learning about coding and writing about what I have learned.
           I also ride horses, enjoy roadtrips and cooking.
         </p>         
-        <p class="paragraph pt-6 sm: px-6">I have written copy for multiple
+        <p class="paragraph pt-6 sm: px-6 pb-4">I have written copy for multiple
           industries, including Education, Transport and have won award entries in Finance.
           I also specialise in explaining difficult technological concepts in an accessible way.
           You can view my blog posts by following the Dev link above.
         </p>
-        <p class="paragraph py-6 sm: px-6">
-          I design and build beautiful websites using Vue.js, Nuxt.js, and
-          Tailwind.
-        </p>
-        <p class="paragraph pb-4">Let's work together to create your vision.</p>
         <div class="justify-center mt-4 flex-shrink-0 flex md:mt-0 md:ml-4 mb-10">
           <ContactButton
           ></ContactButton>
