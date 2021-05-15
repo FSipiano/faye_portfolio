@@ -8,7 +8,7 @@
         <p
           class="text-2xl font-bold leading-7 text-gray-800 sm:text-3xl sm:truncate py-5"
         >
-         Developer Advocate || Tech Writer
+         Technical Writer || Community Builder
         </p>
       </div>
      <ContactButton></ContactButton>

@@ -5,9 +5,8 @@
       <div>
         <h1 class="title lg:text-6xl">Faye_Sipiano</h1>
 
-        <h2 class="subtitle"> Developer Advocate at <a class ="subtitle underline"
-        href="https://raycast.com">Raycast
-        </a></h2>
+        <h2 class="subtitle"> Freelance tech writer and community-builder
+        </h2>
 
         <div class="links">
             <a
@@ -48,8 +47,10 @@
           I also ride horses, enjoy roadtrips and cooking.
         </p>         
         <p class="paragraph pt-6 sm: px-6 pb-4">I have written copy for multiple
-          industries, including Education, Transport and have won award entries in Finance.
-          I also specialise in explaining difficult technological concepts in an accessible way.
+          industries, including Education, Transport and have written winning award entries in FinTech.
+        </p>
+        <p class="paragraph pt-6 sm: px-6 pb-4">
+          I specialise in explaining difficult technological concepts in an accessible way.
           You can view my blog posts by following the Dev link above.
         </p>
         <div class="justify-center mt-4 flex-shrink-0 flex md:mt-0 md:ml-4 mb-10">
