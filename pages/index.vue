@@ -15,7 +15,7 @@ import ContactButton from './components/ContactButton'
             href="https://dev.to/javascriptcoff1"
             target="_blank"
             rel="noopener noreferrer"
-            class="mt-2 font-bold inline-flex px-2 py-1 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            class="mt-2 font-bold inline-flex px-3 py-2 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             Dev.to
           </a>
@@ -23,7 +23,7 @@ import ContactButton from './components/ContactButton'
             href="https://www.youtube.com/channel/UCQap2rd2RT364EyxJsx9GYw?view_as=subscriber"
             target="_blank"
             rel="noopener noreferrer"
-            class="mt-2 font-bold inline-flex px-2 py-1 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-red-700 hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            class="mt-2 font-bold inline-flex px-3 py-2 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-red-700 hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
               Youtube
           </a>
@@ -31,7 +31,7 @@ import ContactButton from './components/ContactButton'
             href="https://github.com/FSipiano"
             target="_blank"
             rel="noopener noreferrer"
-            class="mt-2 font-bold inline-flex px-2 py-1 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            class="mt-2 font-bold inline-flex px-3 py-2 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             GitHub
           </a>
@@ -39,7 +39,7 @@ import ContactButton from './components/ContactButton'
             href="https://twitter.com/javascriptcoff1"
             target="_blank"
             rel="noopener noreferrer"
-            class="mt-2 font-bold inline-flex px-2 py-1 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-blue-700 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2; focus:ring-indigo-500"
+            class="mt-2 font-bold inline-flex px-3 py-2 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-blue-700 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2; focus:ring-indigo-500"
           >
               Twitter
           </a>
@@ -47,12 +47,12 @@ import ContactButton from './components/ContactButton'
         <p class="paragraph pt-24 px-36 sm:px-6">
           Hi, I'm Faye.
         </p>
-        <p class="paragraph pt-6 sm: px-6 pb-4">I love learning about coding and writing about what I have learned.
+        <p class="paragraph pt-4 sm: px-6 pb-4">I love learning about coding and writing about what I have learned.
           I also ride horses, enjoy roadtrips and cooking. 
-        I have written copy for multiple
+          I have written copy for multiple
           industries, including Education, Transport and have written winning award entries in FinTech.
-     </p> 
-        <p class="paragraph pt-6 sm: px-6 pb-4">
+        </p> 
+        <p class="paragraph pt-4 sm: px-6 pb-4">
           I specialise in explaining difficult technological concepts in a way that everyone can understand.
           You can view my blog posts by following the Dev.to link above.
         </p>
@@ -111,7 +111,7 @@ export default {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
-  font-weight: 10;
+  font-weight: 400px;
   font-size: 45px;
   color: #35495e;
   letter-spacing: 2px;
@@ -135,7 +135,7 @@ export default {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
-  font-size: 18px;
+  font-size: 20px;
 
   color: #000000;
 }
