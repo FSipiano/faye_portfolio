@@ -1,9 +1,11 @@
+import ContactButton from './components/ContactButton'
 <template>
   <section class="page">
-    <Navbar class="py-5 px-12"></Navbar>
     <div class="container">
       <div>
-        <h1 class="title lg:text-6xl">Faye_Sipiano</h1>
+        <ContactButton class="mt-5"
+          ></ContactButton>
+        <h1 class="title">Faye_Sipiano</h1>
 
         <h2 class="subtitle"> Freelance tech writer and community-builder
         </h2>
@@ -13,7 +15,7 @@
             href="https://dev.to/javascriptcoff1"
             target="_blank"
             rel="noopener noreferrer"
-            class="ml-3 font-bold inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            class="mt-2 font-bold inline-flex px-2 py-1 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             Dev.to
           </a>
@@ -21,39 +23,38 @@
             href="https://www.youtube.com/channel/UCQap2rd2RT364EyxJsx9GYw?view_as=subscriber"
             target="_blank"
             rel="noopener noreferrer"
-            class="ml-3 font-bold inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-red-700 hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            class="mt-2 font-bold inline-flex px-2 py-1 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-red-700 hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
               Youtube
-          </a>
-          <a
-            href="https://twitter.com/javascriptcoff1"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="ml-3 font-bold inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-blue-700 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2; focus:ring-indigo-500"
-          >
-              Twitter
           </a>
           <a
             href="https://github.com/FSipiano"
             target="_blank"
             rel="noopener noreferrer"
-            class="ml-3 font-bold inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            class="mt-2 font-bold inline-flex px-2 py-1 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             GitHub
           </a>
+          <a
+            href="https://twitter.com/javascriptcoff1"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mt-2 font-bold inline-flex px-2 py-1 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-blue-700 hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2; focus:ring-indigo-500"
+          >
+              Twitter
+          </a>
         </div>
-        <p class="paragraph pt-24 px-36 sm: px-6">
+        <p class="paragraph pt-24 px-36 sm:px-6">
           Hi, I'm Faye.
         </p>
         <p class="paragraph pt-6 sm: px-6 pb-4">I love learning about coding and writing about what I have learned.
-          I also ride horses, enjoy roadtrips and cooking.
-        </p>         
-        <p class="paragraph pt-6 sm: px-6 pb-4">I have written copy for multiple
+          I also ride horses, enjoy roadtrips and cooking. 
+        I have written copy for multiple
           industries, including Education, Transport and have written winning award entries in FinTech.
-        </p>
+     </p> 
         <p class="paragraph pt-6 sm: px-6 pb-4">
-          I specialise in explaining difficult technological concepts in an accessible way.
-          You can view my blog posts by following the Dev link above.
+          I specialise in explaining difficult technological concepts in a way that everyone can understand.
+          You can view my blog posts by following the Dev.to link above.
         </p>
         <div class="justify-center mt-4 flex-shrink-0 flex md:mt-0 md:ml-4 mb-10">
           <ContactButton
@@ -65,6 +66,7 @@
 </template>
 
 <script>
+import ContactButton from '~/components/ContactButton.vue';
 export default {
    data() {
       return {
@@ -85,26 +87,23 @@ export default {
     },
 
   components: {
+    ContactButton
 
   },
 };
 </script>
 
 <style>
-/* .container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto
-} */
 
 .page {
-  background-color: #e2d8d896;
+  background-color: #d3cbcb96;
 }
 
 .container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
   text-align: center;
 }
 
@@ -112,23 +111,22 @@ export default {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
-  font-weight: 300;
-  font-size: 60px;
+  font-weight: 10;
+  font-size: 45px;
   color: #35495e;
   letter-spacing: 2px;
 }
 
 
 .subtitle {
-  font-weight: 300;
-  font-size: 42px;
+  font-size: 32px;
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
 
 .links {
-  padding-top: 15px;
+  display: block;
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
@@ -137,7 +135,8 @@ export default {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
-  font-size: 28px;
+  font-size: 18px;
+
   color: #000000;
 }
 </style>
