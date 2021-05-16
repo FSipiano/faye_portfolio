@@ -1,10 +1,7 @@
 <template>
- <div class="relative px-6 py-6 bg-white">
+ <div class="relative px-6 py-6 page">
     <Navbar class="py-5 px-12"></Navbar>
   <div class="lg:absolute lg:inset-0">
-    <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-      <img class="h-56 w-full object-cover lg:absolute lg:h-full" src="https://images.unsplash.com/photo-1501556424050-d4816356b73e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" alt="Apple keyboard and a watch on notepad and a white table">
-    </div>
   </div>
   <div class="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
     <div class="lg:pr-8">
@@ -104,7 +101,7 @@
           <div class="text-right sm:col-span-2">
             <button
             type="submit"
-            class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            class="text-lg inline-flex font-bold items-center px-8 py-4 border border-transparent rounded-md text-white bg-green-700 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
               Submit
             </button>
           </div>
@@ -136,3 +133,8 @@ export default {
     }
 }
 </script>
+<style>
+.page {
+  background-color: #d3cbcb96;
+}
+</style>
