@@ -44,7 +44,7 @@ import ContactButton from './components/ContactButton'
               Twitter
           </a>
         </div>
-        <p class="paragraph pt-24 px-36 sm:px-6">
+        <p class="paragraph pt-20 px-36 sm:px-6">
           Hi, I'm Faye.
         </p>
         <p class="paragraph pt-4 sm: px-6 pb-4">I love learning about coding and writing about what I have learned.
@@ -112,7 +112,7 @@ export default {
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 400px;
-  font-size: 45px;
+  font-size: 48px;
   color: #35495e;
   letter-spacing: 2px;
 }
