@@ -1,8 +1,5 @@
 <template>
  <div class="relative px-6 py-6 page">
-    <Navbar class="py-5 px-12"></Navbar>
-  <div class="lg:absolute lg:inset-0">
-  </div>
   <div class="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
     <div class="lg:pr-8">
       <div class="max-w-md mx-auto sm:max-w-lg lg:mx-0">

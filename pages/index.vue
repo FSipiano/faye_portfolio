@@ -3,19 +3,22 @@ import ContactButton from './components/ContactButton'
   <section class="page">
     <div class="container">
       <div>
-        <ContactButton class="mt-5"
+        <ContactButton class="mt-10"
           ></ContactButton>
         <h1 class="title">Faye_Sipiano</h1>
 
         <h2 class="subtitle"> Freelance tech writer and community-builder
         </h2>
-
+        <div>
+        <img class="profile"
+        :src="profileImage">
+        </div>
         <div class="links">
             <a
             href="https://dev.to/javascriptcoff1"
             target="_blank"
             rel="noopener noreferrer"
-            class="mt-2 font-bold inline-flex px-3 py-2 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            class="mt-10 font-bold inline-flex px-3 py-2 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             Dev.to
           </a>
@@ -70,7 +73,8 @@ import ContactButton from '~/components/ContactButton.vue';
 export default {
    data() {
       return {
-        title: 'Faye_Sipiano - Home'
+        title: 'Faye_Sipiano - Home',
+        profileImage: require('@/static/profile.png')
       }
     },
     head() {
@@ -110,7 +114,6 @@ export default {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
-  /* justify-content: center; */
   text-align: center;
 }
 
@@ -146,5 +149,13 @@ export default {
   font-size: 20px;
 
   color: #000000;
+}
+
+.profile {
+  border-radius: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 </style>
