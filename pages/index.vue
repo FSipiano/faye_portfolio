@@ -94,6 +94,13 @@ export default {
 </script>
 
 <style>
+@media
+ (max-width: 300px) { 
+   .container { 
+     max-width: 100%}
+     }
+
+.container { max-width: 80% }
 
 .page {
   background-color: #d3cbcb96;
@@ -132,6 +139,7 @@ export default {
 }
 
 .paragraph {
+
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
