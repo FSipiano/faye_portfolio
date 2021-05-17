@@ -74,7 +74,7 @@ export default {
    data() {
       return {
         title: 'Faye_Sipiano - Home',
-        profileImage: require('@/static/profile.png')
+        profileImage: require('@/static/profile.jpg')
       }
     },
     head() {
