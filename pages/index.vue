@@ -9,10 +9,6 @@ import ContactButton from './components/ContactButton'
 
         <h2 class="subtitle"> Freelance tech writer and community-builder
         </h2>
-        <div>
-        <img class="profile"
-        :src="profileImage">
-        </div>
         <div class="links">
             <a
             href="https://dev.to/javascriptcoff1"
@@ -47,15 +43,19 @@ import ContactButton from './components/ContactButton'
               Twitter
           </a>
         </div>
+         <div>
+        <img class="profile"
+        :src="profileImage">
+        </div>
         <p class="paragraph pt-20 px-36 sm:px-6">
           Hi, I'm Faye.
         </p>
-        <p class="paragraph pt-4 sm: px-6 pb-4">I love learning about coding and writing about what I have learned.
+        <p class="paragraph pt-4 px-6 pb-4">I love learning about coding and writing about what I have learned.
           I also ride horses, enjoy roadtrips and cooking. 
           I have written copy for multiple
           industries, including Education, Transport and have written winning award entries in FinTech.
         </p> 
-        <p class="paragraph pt-4 sm: px-6 pb-4">
+        <p class="paragraph pt-4 px-6 pb-4">
           I specialise in explaining difficult technological concepts in a way that everyone can understand.
           You can view my blog posts by following the Dev.to link above.
         </p>
@@ -139,6 +139,7 @@ export default {
   display: block;
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin-bottom: 45px;
 }
 
 .paragraph {
@@ -147,7 +148,6 @@ export default {
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-size: 20px;
-
   color: #000000;
 }
 
@@ -156,6 +156,6 @@ export default {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 35%;
 }
 </style>
