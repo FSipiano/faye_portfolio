@@ -8,12 +8,11 @@
         </h2>
         <p class="text-lg text-gray-700 sm:mt-3">
           I’d love to hear from you! Send me an email,
-
-        <a class="text-lg mb-6 text-indigo-600 text-decoration: underline sm:mt-3"
+<a class="text-lg mb-6 text-indigo-600 text-decoration: underline sm:mt-3"
            href="https://twitter.com/JavaScriptCoff1">
-        a DM on Twitter
+        a DM on Twitter,
         </a>
-        , or use the form below, and
+     or use the form below and
           I'll respond as soon as I can!
         </p>
 
