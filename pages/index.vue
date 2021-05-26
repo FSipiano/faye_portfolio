@@ -1,3 +1,6 @@
+import Vue from 'vue'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 import ContactButton from './components/ContactButton'
 <template>
   <section class="page">
@@ -57,9 +60,13 @@ import ContactButton from './components/ContactButton'
         </p> 
         <p class="paragraph pt-4 px-6 pb-4">
           I specialise in explaining difficult technological concepts in a way that everyone can understand.
-          You can view my blog posts by following the Dev.to link above.
+          Below is a selection of my recent posts.
         </p>
-        <div class="justify-center mt-4 flex-shrink-0 flex md:mt-0 md:ml-4 mb-10">
+        <div class="justify-center flex-shrink-0 flex md:mt-0 md:ml-4 mb-10">
+        <BlogCardContainer
+        ></BlogCardContainer>
+        </div>
+        <div class="justify-center flex-shrink-0 flex md:mt-0 md:ml-4 mb-10">
           <ContactButton
           ></ContactButton>
         </div>
@@ -70,6 +77,7 @@ import ContactButton from './components/ContactButton'
 
 <script>
 import ContactButton from '~/components/ContactButton.vue';
+import BlogCardContainer from '~/components/BlogCardContainer.vue';
 export default {
    data() {
       return {
@@ -91,7 +99,8 @@ export default {
     },
 
   components: {
-    ContactButton
+    ContactButton,
+    BlogCardContainer
 
   },
 };

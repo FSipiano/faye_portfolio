@@ -9,8 +9,12 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.13.4",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
+    "vmark": "^1.2.0",
+    "vue-axios": "^3.2.4",
     "yarn": "^1.22.10"
   },
   "devDependencies": {
@@ -18,5 +22,12 @@
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.35",
     "tailwindcss": "^1.9.6"
+  },
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "eqeqeq": "warn",
+    "strict": "off"
   }
 }
