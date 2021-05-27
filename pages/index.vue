@@ -56,7 +56,8 @@ import ContactButton from './components/ContactButton'
         <p class="paragraph pt-4 px-6 pb-4">I love learning about coding and writing about what I have learned.
           I also ride horses, enjoy roadtrips and cooking. 
           I have written copy for multiple
-          industries, including Education, Transport and have written winning award entries in FinTech.
+          industries, including Education and Transport, and have prepared winning submissions for awards in FinTech 
+          as well as funding applications for tech start-ups.
         </p> 
         <p class="paragraph pt-4 px-6 pb-4">
           I specialise in explaining difficult technological concepts in a way that everyone can understand.
