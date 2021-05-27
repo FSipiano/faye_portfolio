@@ -61,6 +61,12 @@ import ContactButton from './components/ContactButton'
         <p class="paragraph pt-4 px-6 pb-4">
           I specialise in explaining difficult technological concepts in a way that everyone can understand.
           Below is a selection of my recent posts.
+          I also maintain an Open Source 
+          <a class = "underline text-indigo-700"
+          href= "https://github.com/FSipiano/newbieDictionary">
+          Newbie Dictionary
+          </a>
+          on GitHub that aims to give newcomers a helping hand through the overwhelming jargon in this industry.
         </p>
         <div class="justify-center flex-shrink-0 flex md:mt-0 md:ml-4 mb-10">
         <BlogCardContainer

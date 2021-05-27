@@ -7,7 +7,7 @@
   <div class="relative hover:opacity-50 max-w-7xl mx-auto">
    <a :href=post.url>
     
-    <div class="mt-2 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+    <div class="mt-2 max-w-lg mx-auto gap-5 lg:grid-cols-3 lg:max-w-none">
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
           <img class="h-48 w-full object-cover" :src=post.cover_image>
@@ -16,7 +16,7 @@
           <div class="flex-1">
             <p class="text-sm font-medium text-grey-300">
               <a class="">
-                {{post.description}}
+                {{ post.description }}
               </a>
             </p>
             <a href="#" class="block mt-2">
@@ -24,7 +24,7 @@
                   {{post.title}}
               </p>
               <p class="mt-3 text-base text-gray-500">
-             
+             {{ post.public_reactions_count }} reactions
               </p>
             </a>
           </div>
